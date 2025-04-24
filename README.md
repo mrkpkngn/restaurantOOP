@@ -1,5 +1,4 @@
-
-roject Description: Restaurant Management System
+Project Description: Restaurant Management System
 
 This project is a Restaurant Management System designed to simulate the core functionality of a modern restaurant. The system allows managing menus, processing dine-in and takeout orders, handling table reservations, and organizing tables based on capacity.
 
