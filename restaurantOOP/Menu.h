@@ -8,8 +8,8 @@ private:
 public:
 	Menu();
 	~Menu();
-	void addCategory(MenuCategory* category);
-	void removeCategory(MenuCategory* category);
+	MenuCategory* addCategory(MenuCategory* category);
+	bool removeCategory(MenuCategory* category);
 	void displayMenu();
 };
 

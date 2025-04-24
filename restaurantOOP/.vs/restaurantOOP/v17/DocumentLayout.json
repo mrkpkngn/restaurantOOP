@@ -7,20 +7,52 @@
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:DineIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuCategory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Order.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:DineIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:OrderItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,67 +78,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
-              "RelativeDocumentMoniker": "Menu.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
-              "RelativeToolTip": "Menu.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DineIn.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp",
+              "RelativeDocumentMoniker": "DineIn.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp",
+              "RelativeToolTip": "DineIn.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T12:54:59.752Z",
+              "WhenOpened": "2025-04-24T16:57:44.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Order.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp",
+              "RelativeDocumentMoniker": "Order.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp",
+              "RelativeToolTip": "Order.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T15:42:29.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Menu.h",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h",
               "RelativeDocumentMoniker": "Menu.h",
               "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h",
               "RelativeToolTip": "Menu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-24T12:40:06.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MenuCategory.cpp",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp",
               "RelativeDocumentMoniker": "MenuCategory.cpp",
               "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp",
               "RelativeToolTip": "MenuCategory.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-24T12:10:49.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuCategory.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
-              "RelativeDocumentMoniker": "MenuCategory.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
-              "RelativeToolTip": "MenuCategory.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T12:05:22.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuItem.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h",
-              "RelativeDocumentMoniker": "MenuItem.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h",
-              "RelativeToolTip": "MenuItem.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T12:01:22.515Z",
               "EditorCaption": ""
             },
             {
@@ -117,9 +136,126 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwB0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-24T12:00:47.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuCategory.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
+              "RelativeDocumentMoniker": "MenuCategory.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
+              "RelativeToolTip": "MenuCategory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T12:05:22.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DineIn.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h",
+              "RelativeDocumentMoniker": "DineIn.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h",
+              "RelativeToolTip": "DineIn.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T16:11:00.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T12:54:59.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Table.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h",
+              "RelativeDocumentMoniker": "Table.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h",
+              "RelativeToolTip": "Table.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T15:54:50.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuItem.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp",
+              "RelativeDocumentMoniker": "MenuItem.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp",
+              "RelativeToolTip": "MenuItem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T16:00:40.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderItem.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.h",
+              "RelativeDocumentMoniker": "OrderItem.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.h",
+              "RelativeToolTip": "OrderItem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T17:46:38.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Table.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp",
+              "RelativeDocumentMoniker": "Table.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp",
+              "RelativeToolTip": "Table.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T17:53:10.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h",
+              "RelativeDocumentMoniker": "Order.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h",
+              "RelativeToolTip": "Order.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T15:11:34.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuItem.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h",
+              "RelativeDocumentMoniker": "MenuItem.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h",
+              "RelativeToolTip": "MenuItem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T12:01:22.515Z",
               "EditorCaption": ""
             }
           ]

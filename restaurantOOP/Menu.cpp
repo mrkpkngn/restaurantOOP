@@ -1,4 +1,7 @@
 #include "Menu.h"
+
+// -------------------------------- CONSTRUCTORS --------------------------
+
 Menu::Menu()
 {
 	this->_categories = new MenuCategory * [100] {nullptr};
@@ -15,12 +18,16 @@ Menu::~Menu()
 	delete[] this->_categories;
 }
 
-void Menu::addCategory(MenuCategory* category) 
+// ------------------------ PROCESS FUNCTIONS -----------------------
+
+MenuCategory* Menu::addCategory(MenuCategory* category) 
 {
 	this->_categories[this->_categoriesCount] = category;
 	this->_categoriesCount++;
+	return category;
 }
-void Menu::removeCategory(MenuCategory* category)
+
+bool Menu::removeCategory(MenuCategory* category)
 {
 	for (int x = 0; x < this->_categoriesCount; x++)
 	{
@@ -31,13 +38,15 @@ void Menu::removeCategory(MenuCategory* category)
 			for (int y = x; y < this->_categoriesCount; y++)
 			{
 				this->_categories[y] = _categories[y + 1];
-				return;
 			}
+
+			return true;
 		}
 
 	}
 
 	cout << "Error!: Cant Find Category" << endl;
+	return false;
 }
 
 void Menu::displayMenu()

@@ -12,8 +12,8 @@ private:
 public:
 	MenuCategory(string category);
 	~MenuCategory();
-	void addItem(MenuItem* item);
-	void removeItem(MenuItem* item);
+	MenuItem* addItem(MenuItem* item);
+	bool removeItem(MenuItem* item);
 	void displayCategory();
 };
 

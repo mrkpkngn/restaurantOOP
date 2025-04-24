@@ -27,6 +27,18 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DineIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuItem.h">
@@ -36,6 +48,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DineIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderItem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

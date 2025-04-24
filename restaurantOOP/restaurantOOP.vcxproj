@@ -127,15 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DineIn.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="MenuCategory.cpp" />
     <ClCompile Include="MenuItem.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OrderItem.cpp" />
+    <ClCompile Include="Table.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DineIn.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="MenuCategory.h" />
     <ClInclude Include="MenuItem.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="OrderItem.h" />
+    <ClInclude Include="Table.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
