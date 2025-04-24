@@ -1,0 +1,860 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" style="background: #ffffff; background-color: light-dark(#ffffff, #121212);" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1021px" height="914px" viewBox="-0.5 -0.5 1021 914" content="&lt;mxfile&gt;&lt;diagram id=&quot;JUo09DA5daXesAt3-Gbv&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <rect fill="#ffffff" width="100%" height="100%" x="0" y="0" style="fill: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));"/>
+    <g>
+        <g>
+            <path d="M 25 796 L 25 770 L 185 770 L 185 796" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 25 796 L 25 910 L 185 910 L 185 796" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 25 796 L 185 796" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 777px; margin-left: 26px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    MenuItem
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="105" y="789" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        MenuItem
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="25" y="796" width="160" height="44" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 150px; height: 1px; padding-top: 803px; margin-left: 31px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 40px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + name : String
+                                    <div>
+                                        + price: Double
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="31" y="815" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + name : String...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 25 844 L 185 844" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="25" y="848" width="160" height="62" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 150px; height: 1px; padding-top: 855px; margin-left: 31px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 58px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + MenuItem (string, double)
+                                    <div>
+                                        + string getName()
+                                    </div>
+                                    <div>
+                                        + double getPrice()
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="31" y="867" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + MenuItem (string, doubl...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 610 376 L 610 350 L 770 350 L 770 376" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 610 376 L 610 520 L 770 520 L 770 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 610 376 L 770 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 357px; margin-left: 611px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    Table
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="690" y="369" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        Table
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="610" y="376" width="160" height="54" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 150px; height: 1px; padding-top: 383px; margin-left: 616px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 50px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + tableNumber: Int
+                                    <div>
+                                        + occupied: Bool
+                                    </div>
+                                    <div>
+                                        + numSeats: Int
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="616" y="395" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + tableNumber: Int...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 610 434 L 770 434" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="610" y="438" width="160" height="82" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 150px; height: 1px; padding-top: 445px; margin-left: 616px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 78px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + Table(int, int)
+                                    <div>
+                                        + bool isOccupied()
+                                    </div>
+                                    <div>
+                                        + void markAsOccupied()
+                                    </div>
+                                    <div>
+                                        + int getNumSeats()
+                                    </div>
+                                    <div>
+                                        + int getTableNumber()
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="616" y="457" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + Table(int, int)...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 320 376 L 320 350 L 500 350 L 500 376" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 320 376 L 320 560 L 500 560 L 500 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 320 376 L 500 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 178px; height: 1px; padding-top: 357px; margin-left: 321px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    Order
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="410" y="369" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        Order
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="320" y="376" width="180" height="74" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 383px; margin-left: 326px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 70px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + id: Int
+                                    <div>
+                                        + orderItems: MenuItem*
+                                    </div>
+                                    <div>
+                                        <span style="background-color: transparent;">
+                                            + orderComplete: Bool
+                                        </span>
+                                    </div>
+                                    <div>
+                                        + total: Double
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="326" y="395" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + id: Int...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 320 454 L 500 454" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="320" y="458" width="180" height="102" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 465px; margin-left: 326px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 98px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + Order(int id)
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            + ~Order()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            + void addItem(MenuItem)
+                                        </div>
+                                        <div>
+                                            + void removeItem(MenuItem)
+                                        </div>
+                                        <div>
+                                            + double calculateTotal()
+                                        </div>
+                                        <div>
+                                            + void printReceipt()
+                                        </div>
+                                        <div>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="326" y="477" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + Order(int id)...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 225 626 L 225 600 L 405 600 L 405 626" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 225 626 L 225 740 L 405 740 L 405 626" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 225 626 L 405 626" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 178px; height: 1px; padding-top: 607px; margin-left: 226px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    DineIn : Order
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="315" y="619" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        DineIn : Order
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="225" y="626" width="180" height="34" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 633px; margin-left: 231px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 30px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + orderTable : Table
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="231" y="645" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + orderTable : Table
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 225 664 L 405 664" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="225" y="668" width="180" height="72" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 675px; margin-left: 231px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 68px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + DineIn(Table orderTable, MenuItem* orderItems)
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            + ~DineIn()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                                + void printReceipt() override
+                                            </font>
+                                        </div>
+                                        <div>
+                                            <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                                <br/>
+                                            </font>
+                                            <div>
+                                                <div>
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="231" y="687" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + DineIn(Table orderTable, M...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 430 626 L 430 600 L 610 600 L 610 626" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 430 626 L 430 770 L 610 770 L 610 626" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 430 626 L 610 626" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 178px; height: 1px; padding-top: 607px; margin-left: 431px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    TakeOut : Order
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="520" y="619" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        TakeOut : Order
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="430" y="626" width="180" height="34" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 633px; margin-left: 436px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 30px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + customerName : string
+                                    <div>
+                                        + pickupTime: string
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="436" y="645" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + customerName : string...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 430 664 L 610 664" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="430" y="668" width="180" height="102" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 675px; margin-left: 436px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 98px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + TakeOut(string customerName, string pickupTime, MenuItem* orderItems)
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            ~TakeOut()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                                + void printReceipt() override
+                                            </font>
+                                        </div>
+                                        <div>
+                                            <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                                <br/>
+                                            </font>
+                                            <div>
+                                                <div>
+                                                    <br/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="436" y="687" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + TakeOut(string customerNam...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 105 540 L 105 490" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 15 566 L 15 540 L 195 540 L 195 566" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 15 566 L 15 720 L 195 720 L 195 566" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 15 566 L 195 566" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 178px; height: 1px; padding-top: 547px; margin-left: 16px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    MenuCategory
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="105" y="559" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        MenuCategory
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="15" y="566" width="180" height="44" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 573px; margin-left: 21px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 40px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + category: String
+                                    <div>
+                                        + items: MenuItem*
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="21" y="585" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + category: String...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 15 614 L 195 614" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="15" y="618" width="180" height="102" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 170px; height: 1px; padding-top: 625px; margin-left: 21px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 98px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + MenuCategory(string category, MenuItem* items)
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            + ~MenuCategory()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            + void addItem(MenuItem)
+                                        </div>
+                                        <div>
+                                            + void removeItem(MenuItem)
+                                        </div>
+                                        <div>
+                                            + void displayCategory();
+                                        </div>
+                                        <div>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="21" y="637" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + MenuCategory(string catego...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 105 350 L 105 310 L 450 310 L 449.2 216.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 449.16 211.12 L 452.72 218.09 L 449.2 216.37 L 445.72 218.15 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 0 376 L 0 350 L 210 350 L 210 376" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 0 376 L 0 490 L 210 490 L 210 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 0 376 L 210 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 357px; margin-left: 1px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    Menu
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="105" y="369" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        Menu
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="0" y="376" width="210" height="34" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 200px; height: 1px; padding-top: 383px; margin-left: 6px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 30px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <div>
+                                        + categories: MenuCategory*
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="6" y="395" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + categories: MenuCategory*
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 0 414 L 210 414" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="0" y="418" width="210" height="72" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 200px; height: 1px; padding-top: 425px; margin-left: 6px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 68px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + Menu(MenuCategory* categories)
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            + ~Menu()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            + void displayMenu();
+                                        </div>
+                                        <div>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="6" y="437" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + Menu(MenuCategory* categories)...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 860 376 L 860 350 L 1020 350 L 1020 376" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 860 376 L 860 560 L 1020 560 L 1020 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 860 376 L 1020 376" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 357px; margin-left: 861px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    Reservation
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="940" y="369" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        Reservation
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="860" y="376" width="160" height="74" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 150px; height: 1px; padding-top: 383px; margin-left: 866px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 70px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <div>
+                                        + customerName: string
+                                    </div>
+                                    <div>
+                                        + reservedPeople: Int
+                                    </div>
+                                    <div>
+                                        + table : Table*
+                                    </div>
+                                    <div>
+                                        + time: String
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="866" y="395" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + customerName: string...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 860 454 L 1020 454" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="860" y="458" width="160" height="102" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 150px; height: 1px; padding-top: 465px; margin-left: 866px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 98px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + Reservation(string customerName, int reservedPeople, string Time)
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            + ~Reservation()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            + void reservationDetails();
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="866" y="477" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + Reservation(string cust...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 410 26 L 410 0 L 700 0 L 700 26" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 410 26 L 410 208 L 700 208 L 700 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 410 26 L 700 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 288px; height: 1px; padding-top: 7px; margin-left: 411px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                    Restaurant
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="555" y="19" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle" font-weight="bold">
+                        Restaurant
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <rect x="410" y="26" width="290" height="74" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 280px; height: 1px; padding-top: 33px; margin-left: 416px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 70px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    <div>
+                                        + menu : Menu
+                                    </div>
+                                    <div>
+                                        + tables : Table*
+                                        <span style="background-color: transparent;">
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="background-color: transparent;">
+                                            + orders: Order*
+                                        </span>
+                                    </div>
+                                    <div>
+                                        + reservation: Reservation*
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="416" y="45" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + menu : Menu...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 410 104 L 700 104" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="410" y="108" width="290" height="100" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g>
+            <g transform="translate(-0.5 -0.5)">
+                <switch>
+                    <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 280px; height: 1px; padding-top: 115px; margin-left: 416px;">
+                            <div style="box-sizing: border-box; font-size: 0; text-align: left; max-height: 96px; overflow: hidden; color: #000000; ">
+                                <div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                    + Restaurant(Menu menu, Table* tables&gt;
+                                    <div>
+                                        <font color="#000000" style="color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));">
+                                            + ~Restaurant()
+                                            <br/>
+                                        </font>
+                                        <div>
+                                            + void displayMenu()
+                                        </div>
+                                        <div>
+                                            + void findTable(int numPeople)
+                                        </div>
+                                        <div>
+                                            + void addOrder(Order order)
+                                        </div>
+                                        <div>
+                                            + void addReservation(Reservation reservation)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </foreignObject>
+                    <text x="416" y="127" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px">
+                        + Restaurant(Menu menu, Table* tables&gt;...
+                    </text>
+                </switch>
+            </g>
+        </g>
+        <g>
+            <path d="M 105.1 770 L 105.18 719.69" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 184.36 827.42 L 271 827 L 270.9 739.57" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 859.52 433.65 L 768.4 433.92" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 500 413 L 610.64 413.15" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 348.84 740.14 L 350 830 L 700 830 L 700 520" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 315 600 L 315 580 L 410 580 L 410 568.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 410 561.12 L 413.5 568.12 L 406.5 568.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 520 600 L 520 580 L 410 580 L 410 568.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 410 561.12 L 413.5 568.12 L 406.5 568.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 469.94 349.79 L 470 310 L 536 310 L 535.87 216.77" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 535.86 211.52 L 539.37 218.51 L 535.87 216.77 L 532.37 218.52 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 940 350 L 940 310 L 669 310 L 668.97 214.87" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 668.97 209.62 L 672.47 216.62 L 668.97 214.87 L 665.47 216.62 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <path d="M 650 350 L 650 310 L 586 310 L 586.3 215.57" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 586.32 210.32 L 589.79 217.33 L 586.3 215.57 L 582.79 217.31 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
