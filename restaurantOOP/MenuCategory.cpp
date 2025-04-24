@@ -39,6 +39,8 @@ void MenuCategory::removeItem(MenuItem* item)
 			}
 		}
 	}
+
+	cout << "Error!: Can't Find Item" << endl;
 }
 void MenuCategory::displayCategory()
 {
@@ -46,7 +48,7 @@ void MenuCategory::displayCategory()
 	for (int x = 0; x < this->_itemsCount; x++)
 	{
 		cout << "- " << this->_items[x]->getName();
-		if (this->_items[x]->getName().length() < 5) cout << "\t\t\t";
+		if (this->_items[x]->getName().length() < 6) cout << "\t\t\t";
 		else cout << "\t\t";
 		cout << "Price: " << this->_items[x]->getPrice() << endl;
 	}

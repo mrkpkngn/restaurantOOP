@@ -2,9 +2,35 @@
 //
 
 #include <iostream>
+#include "Menu.h"
 
 int main()
 {
+    // Create menu
+    Menu* menu = new Menu();
+
+    // Create first category: Drinks
+    MenuCategory* drinks = new MenuCategory("Drinks");
+    drinks->addItem(new MenuItem("Coffee", 2.50));
+    drinks->addItem(new MenuItem("Tea", 2.00));
+    drinks->addItem(new MenuItem("Soda", 1.50));
+
+    // Create second category: Food
+    MenuCategory* food = new MenuCategory("Food");
+    food->addItem(new MenuItem("Burger", 5.99));
+    food->addItem(new MenuItem("Fries", 2.99));
+    food->addItem(new MenuItem("Salad", 4.50));
+
+    // Add categories to the menu
+    menu->addCategory(drinks);
+    menu->addCategory(food);
+
+    std::cout << "Menu created successfully!" << std::endl;
+
+    menu->displayMenu();
+
+    // When done, clean up everything
+    delete menu; // Deletes categories and items too (via destructors)
 
     return 0;
 }
