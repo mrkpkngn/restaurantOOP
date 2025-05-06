@@ -5,26 +5,42 @@
 MenuCategory::MenuCategory(string category)
 {
 	this->_category = category;
-	this->_items = new MenuItem * [100];
+	this->_items = new MenuItem * [100] {nullptr};
 	this->_itemsCount = 0;
 }
 
 
 MenuCategory::~MenuCategory()
 {
-	for (int x = 0; x < this->_itemsCount; x++)
-	{
-		delete this->_items[x];
+	if (_items != nullptr) {
+		for (int x = 0; x < this->_itemsCount; x++)
+		{
+			if (this->_items[x] != nullptr) {
+				delete this->_items[x];
+				this->_items[x] = nullptr;
+			}
+		}
+		delete[] _items;
+		_items = nullptr;
 	}
-	delete[] _items;
-};
+}
 
 // ------------------------ PROCESS FUNCTIONS -----------------------
 
 MenuItem* MenuCategory::addItem(MenuItem* item)
 {
+	for (int i = 0; i < this->_itemsCount; i++)
+	{
+		if (this->_items[i] == nullptr)
+		{
+			this->_items[i] = item;
+			return item;
+		}
+	}
+
 	this->_items[_itemsCount] = item;
 	_itemsCount++;
+
 	return item;
 }
 
@@ -36,11 +52,13 @@ bool MenuCategory::removeItem(MenuItem* item)
 		{
 			delete this->_items[x];
 
-			for (int y = x; y < this->_itemsCount; y++)
+			for (int y = x; y < this->_itemsCount - 1; y++)
 			{
 				this->_items[y] = this->_items[y + 1];
 			}
 
+			this->_items[this->_itemsCount - 1] = nullptr;
+			this->_itemsCount--;
 			return true;
 		}
 	}

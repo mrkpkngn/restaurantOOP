@@ -10,20 +10,34 @@ Menu::Menu()
 
 Menu::~Menu()
 {
-	for (int x = 0; x < this->_categoriesCount; x++)
-	{
-		delete this->_categories[x];
+	if (_categories != nullptr) {
+		for (int x = 0; x < this->_categoriesCount; x++)
+		{
+			if (this->_categories[x] != nullptr) {
+				delete this->_categories[x];
+				this->_categories[x] = nullptr;
+			}
+		}
+		delete[] this->_categories;
+		this->_categories = nullptr;
 	}
-
-	delete[] this->_categories;
 }
-
 // ------------------------ PROCESS FUNCTIONS -----------------------
 
-MenuCategory* Menu::addCategory(MenuCategory* category) 
+MenuCategory* Menu::addCategory(MenuCategory* category)
 {
+	for (int i = 0; i < this->_categoriesCount; i++)
+	{
+		if (this->_categories[i] == nullptr)
+		{
+			this->_categories[i] = category;
+			return category;
+		}
+	}
+
 	this->_categories[this->_categoriesCount] = category;
 	this->_categoriesCount++;
+
 	return category;
 }
 
@@ -35,14 +49,15 @@ bool Menu::removeCategory(MenuCategory* category)
 		{
 			delete this->_categories[x];
 
-			for (int y = x; y < this->_categoriesCount; y++)
+			for (int y = x; y < this->_categoriesCount - 1; y++)
 			{
 				this->_categories[y] = _categories[y + 1];
 			}
 
+			this->_categories[this->_categoriesCount - 1] = nullptr;
+			this->_categoriesCount--;
 			return true;
 		}
-
 	}
 
 	cout << "Error!: Cant Find Category" << endl;

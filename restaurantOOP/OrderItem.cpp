@@ -13,7 +13,12 @@ OrderItem::OrderItem(MenuItem* item, int quantity)
 
 MenuItem* OrderItem::getItem()
 {
-	return this->_item;
+	if (this->_item != nullptr)
+	{
+		return this->_item;
+	}
+
+	return nullptr;
 }
 
 int OrderItem::getQuantity()

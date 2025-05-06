@@ -6,6 +6,7 @@ DineIn::DineIn(Table* orderTable, OrderItem** orderItems, int itemsCount) :
 	Order(orderItems, itemsCount)
 {
 	this->_orderTable = orderTable;
+	this->_orderTable->markAsOccupied();
 }
 
 
@@ -15,6 +16,29 @@ DineIn::~DineIn()
 }
 
 // ------------------------ PROCESS FUNCTIONS -----------------------
+
+void DineIn::orderComplete()
+{
+	this->_orderTable->markAsFree();
+}
+
+void DineIn::displayOrder() const
+{
+	cout << "----- ORDER " << this->getOrderID() << " -----" << endl;
+	cout << "FOR DINE IN" << endl;
+	cout << "Item\t\tQty." << endl;
+
+	for (int x = 0; x < this->getItemsCount(); x++)
+	{
+		OrderItem* currentItem = this->getItem(x);
+
+		cout << "- " << currentItem->getItem()->getName();
+		if (currentItem->getItem()->getName().length() < 6) cout << "\t\t";
+		else cout << "\t";
+		cout << currentItem->getQuantity() << "\t" << endl;
+	}
+	cout << "-------------------" << endl;
+}
 
 void DineIn::printReceipt() const
 {

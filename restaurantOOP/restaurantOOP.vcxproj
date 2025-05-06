@@ -134,7 +134,10 @@
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="Order.cpp" />
     <ClCompile Include="OrderItem.cpp" />
+    <ClCompile Include="Reservation.cpp" />
+    <ClCompile Include="System.cpp" />
     <ClCompile Include="Table.cpp" />
+    <ClCompile Include="TakeOut.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DineIn.h" />
@@ -143,7 +146,10 @@
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="Order.h" />
     <ClInclude Include="OrderItem.h" />
+    <ClInclude Include="Reservation.h" />
+    <ClInclude Include="System.h" />
     <ClInclude Include="Table.h" />
+    <ClInclude Include="TakeOut.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

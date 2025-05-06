@@ -11,7 +11,7 @@ Order::Order(OrderItem** orderItems, int itemsCount)
 	this->_orderTotal = 0.0;
 
 	this->_itemsCount = itemsCount;
-	this->_orderItems = new OrderItem * [100];
+	this->_orderItems = new OrderItem * [100] {nullptr};
 	for (int x = 0; x < this->_itemsCount; x++)
 	{
 		this->_orderItems[x] = orderItems[x];
@@ -26,15 +26,26 @@ Order::Order(OrderItem** orderItems, int itemsCount)
 
 Order::~Order()
 {
-	for (int x = 0; x < this->_itemsCount; x++)
-	{
-		delete this->_orderItems[x];
+	if (_orderItems != nullptr) {
+		for (int x = 0; x < this->_itemsCount; x++)
+		{
+			if (this->_orderItems[x] != nullptr)
+			{
+				delete this->_orderItems[x];
+				this->_orderItems[x] = nullptr;
+			}
+		}
+		delete[] _orderItems;
+		_orderItems = nullptr;
 	}
-
-	delete[] _orderItems;
 }
 
 // ------------------------- GET FUNCTIONS -------------------------
+
+bool Order::isOrderComplete()
+{
+	return this->_orderComplete;
+}
 
 int Order::getOrderID() const
 {
@@ -66,14 +77,37 @@ OrderItem* Order::getItem(int index) const
 
 // ------------------------ PROCESS FUNCTIONS -----------------------
 
+void Order::orderComplete()
+{
+	this->_orderComplete = true;
+}
+
 OrderItem* Order::addItem(MenuItem* item, int quantity)
 {
 	OrderItem* orderItem = new OrderItem(item, quantity);
+	for (int x = 0; x < this->_itemsCount; x++)
+	{
+		if (this->_orderItems[x] == nullptr) {
+			this->_orderItems[x] = orderItem;
+			this->_orderTotal += item->getPrice();
+			return orderItem;
+		}
+
+		if (this->_orderItems[x]->getItem()->getName() == item->getName())
+		{
+			this->_orderItems[x]->addQuantity();
+			this->_orderTotal += item->getPrice();
+			delete orderItem;
+			return this->_orderItems[x];
+		}
+	}
 
 	this->_orderItems[_itemsCount] = orderItem;
+	this->_itemsCount++;
 	this->_orderTotal += item->getPrice();
 	return orderItem;
 }
+
 bool Order::removeItem(string name) {
 	for (int x = 0; x < this->_itemsCount; x++) {
 		if (this->_orderItems[x]->getItem()->getName() == name) {
@@ -82,6 +116,7 @@ bool Order::removeItem(string name) {
 			if (!isSuccess || this->_orderItems[x]->getQuantity() == 0) {
 				this->_orderTotal -= this->getItem(x)->getItem()->getPrice() * (this->_orderItems[x]->getQuantity() + 1);
 				delete this->_orderItems[x];
+
 				for (int y = x; y < this->_itemsCount - 1; y++)
 				{
 					this->_orderItems[y] = this->_orderItems[y + 1];
@@ -96,6 +131,6 @@ bool Order::removeItem(string name) {
 			return true;
 		}
 	}
-	cout << "Error!: Can't Find Item" <<endl;
+	cout << "Error!: Can't Find Item" << endl;
 	return false;
 }
