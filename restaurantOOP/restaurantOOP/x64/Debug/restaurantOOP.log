@@ -1,2 +1,22 @@
-﻿  main.cpp
+﻿  DineIn.cpp
+C:\Users\marek\restaurantOOP\restaurantOOP\Table.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'DineIn.cpp')
+  
+  Reservation.cpp
+C:\Users\marek\restaurantOOP\restaurantOOP\Table.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Reservation.cpp')
+  
+  System.cpp
+C:\Users\marek\restaurantOOP\restaurantOOP\Table.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'System.cpp')
+  
+  Table.cpp
+C:\Users\marek\restaurantOOP\restaurantOOP\Table.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Table.cpp')
+  
+  main.cpp
+C:\Users\marek\restaurantOOP\restaurantOOP\Table.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+  Generating Code...
   restaurantOOP.vcxproj -> C:\Users\marek\restaurantOOP\restaurantOOP\x64\Debug\restaurantOOP.exe

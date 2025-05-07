@@ -77,10 +77,10 @@ OrderItem* Order::getItem(int index) const
 
 // ------------------------ PROCESS FUNCTIONS -----------------------
 
-void Order::orderComplete()
-{
-	this->_orderComplete = true;
+void Order::orderComplete() {
+    this->_orderComplete = true;
 }
+
 
 OrderItem* Order::addItem(MenuItem* item, int quantity)
 {

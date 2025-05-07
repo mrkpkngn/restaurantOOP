@@ -3,90 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuCategory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Reservation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:DineIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:DineIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Reservation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Reservation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:OrderItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\throw_bad_alloc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:DineIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuCategory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Order.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:TakeOut.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:DineIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:TakeOut.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:TakeOut.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|solutionrelative:MenuCategory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D74BE4F-C638-4DF3-8AF4-AC22A6827D24}|restaurantOOP.vcxproj|C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -100,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -112,63 +118,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuItem.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp",
-              "RelativeDocumentMoniker": "MenuItem.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp",
-              "RelativeToolTip": "MenuItem.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T16:00:40.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DineIn.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h",
-              "RelativeDocumentMoniker": "DineIn.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h",
-              "RelativeToolTip": "DineIn.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Order.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h",
+              "RelativeDocumentMoniker": "Order.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h",
+              "RelativeToolTip": "Order.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T16:11:00.383Z"
+              "WhenOpened": "2025-04-24T15:11:34.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAIwBAAAAAAAAAAAIwKABAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T12:00:47.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Table.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp",
+              "RelativeDocumentMoniker": "Table.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp*",
+              "RelativeToolTip": "Table.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T17:53:10.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T12:54:59.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenuCategory.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp",
+              "RelativeDocumentMoniker": "MenuCategory.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp",
+              "RelativeToolTip": "MenuCategory.cpp",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T12:10:49.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DineIn.cpp",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp",
               "RelativeDocumentMoniker": "DineIn.cpp",
               "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.cpp",
               "RelativeToolTip": "DineIn.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T16:57:44.475Z"
+              "WhenOpened": "2025-04-24T16:57:44.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
+              "Title": "Reservation.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.cpp",
+              "RelativeDocumentMoniker": "Reservation.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.cpp",
+              "RelativeToolTip": "Reservation.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-25T05:53:15.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItem.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.cpp",
+              "RelativeDocumentMoniker": "OrderItem.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.cpp",
+              "RelativeToolTip": "OrderItem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-25T07:41:59.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp",
+              "RelativeDocumentMoniker": "Order.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp",
+              "RelativeToolTip": "Order.cpp",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAE8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T15:42:29.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Table.h",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h",
               "RelativeDocumentMoniker": "Table.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h",
-              "RelativeToolTip": "Table.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.h*",
+              "RelativeToolTip": "Table.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T15:54:50.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MenuCategory.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
-              "RelativeDocumentMoniker": "MenuCategory.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
-              "RelativeToolTip": "MenuCategory.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T12:05:22.585Z"
+              "WhenOpened": "2025-04-24T15:54:50.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -178,49 +254,131 @@
               "RelativeDocumentMoniker": "System.h",
               "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.h",
               "RelativeToolTip": "System.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-25T06:43:36.584Z"
+              "WhenOpened": "2025-04-25T06:43:36.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Reservation.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.h",
+              "RelativeDocumentMoniker": "Reservation.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.h",
+              "RelativeToolTip": "Reservation.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAD4vw8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-25T05:50:35.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TakeOut.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.cpp",
+              "RelativeDocumentMoniker": "TakeOut.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.cpp",
+              "RelativeToolTip": "TakeOut.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-25T05:40:34.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "System.cpp",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.cpp",
               "RelativeDocumentMoniker": "System.cpp",
               "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\System.cpp",
               "RelativeToolTip": "System.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAIAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAIwNUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T06:55:05.259Z"
+              "WhenOpened": "2025-04-25T06:55:05.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuCategory.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp",
-              "RelativeDocumentMoniker": "MenuCategory.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.cpp",
-              "RelativeToolTip": "MenuCategory.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwC4AAAAYAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "throw_bad_alloc.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T12:10:49.131Z"
+              "WhenOpened": "2025-05-07T16:27:21.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Menu.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
-              "RelativeDocumentMoniker": "Menu.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.cpp",
-              "RelativeToolTip": "Menu.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T12:54:59.752Z"
+              "DocumentIndex": 18,
+              "Title": "TakeOut.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.h",
+              "RelativeDocumentMoniker": "TakeOut.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.h",
+              "RelativeToolTip": "TakeOut.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-25T05:35:02.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "MenuItem.cpp",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp",
+              "RelativeDocumentMoniker": "MenuItem.cpp",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.cpp",
+              "RelativeToolTip": "MenuItem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T16:00:40.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "debugger_jmc.c",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\debugger_jmc.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-07T11:55:07.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DineIn.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h",
+              "RelativeDocumentMoniker": "DineIn.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\DineIn.h",
+              "RelativeToolTip": "DineIn.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T16:11:00.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
+              "ViewState": "AgIAAKEBAAAAAAAAAAArwLEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-25T08:39:50.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "MenuItem.h",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuItem.h",
               "RelativeDocumentMoniker": "MenuItem.h",
@@ -228,60 +386,25 @@
               "RelativeToolTip": "MenuItem.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T12:01:22.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T12:00:47.624Z",
+              "WhenOpened": "2025-04-24T12:01:22.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Order.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp",
-              "RelativeDocumentMoniker": "Order.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.cpp",
-              "RelativeToolTip": "Order.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T15:42:29.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "xstring",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\xstring",
-              "ViewState": "AgIAABkJAAAAAAAAAAArwCkJAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-25T08:39:50.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Reservation.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.h",
-              "RelativeDocumentMoniker": "Reservation.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.h",
-              "RelativeToolTip": "Reservation.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAD4vxMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "MenuCategory.h",
+              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
+              "RelativeDocumentMoniker": "MenuCategory.h",
+              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\MenuCategory.h",
+              "RelativeToolTip": "MenuCategory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-25T05:50:35.421Z"
+              "WhenOpened": "2025-04-24T12:05:22.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Menu.h",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Menu.h",
               "RelativeDocumentMoniker": "Menu.h",
@@ -293,67 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Reservation.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.cpp",
-              "RelativeDocumentMoniker": "Reservation.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Reservation.cpp",
-              "RelativeToolTip": "Reservation.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T05:53:15.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Table.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp",
-              "RelativeDocumentMoniker": "Table.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Table.cpp",
-              "RelativeToolTip": "Table.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-24T17:53:10.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderItem.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.cpp",
-              "RelativeDocumentMoniker": "OrderItem.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.cpp",
-              "RelativeToolTip": "OrderItem.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T07:41:59.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Order.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h",
-              "RelativeDocumentMoniker": "Order.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\Order.h",
-              "RelativeToolTip": "Order.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T15:11:34.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TakeOut.h",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.h",
-              "RelativeDocumentMoniker": "TakeOut.h",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.h",
-              "RelativeToolTip": "TakeOut.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-25T05:35:02.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "utility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility",
@@ -365,19 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TakeOut.cpp",
-              "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.cpp",
-              "RelativeDocumentMoniker": "TakeOut.cpp",
-              "ToolTip": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\TakeOut.cpp",
-              "RelativeToolTip": "TakeOut.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-25T05:40:34.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "OrderItem.h",
               "DocumentMoniker": "C:\\Users\\marek\\restaurantOOP\\restaurantOOP\\OrderItem.h",
               "RelativeDocumentMoniker": "OrderItem.h",
@@ -385,7 +436,8 @@
               "RelativeToolTip": "OrderItem.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-24T17:46:38.452Z"
+              "WhenOpened": "2025-04-24T17:46:38.452Z",
+              "EditorCaption": ""
             }
           ]
         }

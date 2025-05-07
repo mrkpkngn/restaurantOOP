@@ -1,5 +1,7 @@
 #include <iostream>
 #include "System.h"
+#include <cstdlib>
+
 using namespace std;
 int main()
 {
@@ -37,122 +39,521 @@ int main()
 
     // Create Tables
     cout << "\n--- Creating Tables ---" << endl;
-    Table* table1 = restaurantSystem->addTable(2);
-    Table* table2 = restaurantSystem->addTable(4);
-    Table* table3 = restaurantSystem->addTable(6);
+    restaurantSystem->addTable(2);
+    restaurantSystem->addTable(4);
+    restaurantSystem->addTable(6);
+
+    Table* table1 = restaurantSystem->getTableByID(0);
+    Table* table2 = restaurantSystem->getTableByID(1);
+    Table* table3 = restaurantSystem->getTableByID(2);
 
     cout << "Created " << Table::getTotalTables() << " tables" << endl;
     cout << "Table " << table1->getTableNumber() << " has " << table1->getNumSeats() << " seats" << endl;
     cout << "Table " << table2->getTableNumber() << " has " << table2->getNumSeats() << " seats" << endl;
     cout << "Table " << table3->getTableNumber() << " has " << table3->getNumSeats() << " seats" << endl;
 
-    // Create Reservations
-    cout << "\n--- Creating Reservations ---" << endl;
-    Reservation* reservation1 = restaurantSystem->addReservation("John Smith", 2, "25-04-2025", "18:00");
-    Reservation* reservation2 = restaurantSystem->addReservation("Maria Garcia", 4, "25-04-2025", "19:30");
-    Reservation* reservation3 = restaurantSystem->addReservation("Maria Garcia", 4, "25-04-2025", "19:30");
-    Reservation* reservation4 = restaurantSystem->addReservation("Maria Garcia", 4, "25-04-2025", "19:30");
+    cout << "Press ENTER to continue..." << endl;
 
-    if (reservation1 != nullptr) {
-        reservation1->reservationDetails();
+    getchar();
+
+    bool quit = false;
+
+    while (!quit)
+    {
+        bool back = false;
+        system("cls");
+        int caseSwitch = 0;
+        cout << "===== RESTAURANT POS =====" << endl;
+        cout << "[1] Menu" << endl;
+        cout << "[2] Order" << endl;
+        cout << "[3] Table" << endl;
+        cout << "[4] Reservation" << endl;
+        cout << "[5] Exit" << endl;
+        cout << "Enter Option: ";
+        cin >> caseSwitch;
+
+        if (cin.fail())
+        {
+            system("cls");
+            cout << "You entered a wrong number! Please try again.\nEnter to Continue..." << endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.get();
+            continue;
+        }
+
+        switch (caseSwitch)
+        {
+        case 1:
+        {
+            while (!back)
+            {
+                system("cls");
+                restaurantSystem->displayMenu();
+                cout << "===================" << endl;
+                int caseSwitchMenu = 0;
+                cout << "[1] New Menu Category" << endl;
+                cout << "[2] New Menu Item" << endl;
+                cout << "[3] Back to Main Menu" << endl;
+                cout << "Enter Option: ";
+                cin >> caseSwitch;
+
+                switch (caseSwitch)
+                {
+                case 1:
+                {
+                    system("cls");
+                    string name;
+                    cout << "Enter new category name: ";
+                    cin.ignore(); // clear leftover newline from previous input
+                    getline(cin, name); // read full line including spaces
+
+                    if (name.empty())
+                    {
+                        system("cls");
+                        cout << "Enter a name. Please try again.\nEnter to Continue..." << endl;
+                        cin.get(); // wait for Enter
+                    }
+                    else
+                    {
+                        restaurantSystem->addMenuCategory(name);
+                    }
+                    break;
+                }
+
+                case 2:
+                {
+                    system("cls");
+                    string category, name;
+                    double price;
+
+                    cout << "Enter category you want to add the item to: ";
+                    cin.ignore();
+                    getline(cin, category);
+
+                    cout << "Enter item name: ";
+                    getline(cin, name);
+
+                    cout << "Enter item price: ";
+                    while (!(cin >> price))
+                    {
+                        cout << "Invalid price. Please enter a number: ";
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    }
+
+                    if (category.empty() || name.empty())
+                    {
+                        system("cls");
+                        cout << "Something went wrong. Please try again.\nEnter to Continue..." << endl;
+                        cin.ignore();
+                        cin.get();
+                    }
+                    else
+                    {
+                        restaurantSystem->addMenuItem(category, name, price);
+                    }
+                    break;
+                }
+
+                case 3:
+                    back = true;
+                    break;
+                default:
+                    system("cls");
+                    cout << "Invalid option. Please try again.\nEnter to Continue..." << endl;
+                    cin.ignore();
+                    cin.get();
+                    break;
+                }
+            }
+            break;
+        }
+
+        case 2:
+        {
+            while (!back)
+            {
+                system("cls");
+                int caseSwitch = 0;
+                cout << "===== PENDING ORDERS =====" << endl;
+                restaurantSystem->showPendingOrders();
+                cout << "===================" << endl;
+                cout << "[1] Create new Dine In Order" << endl;
+                cout << "[2] Create new Take Out Order" << endl;
+                cout << "[3] Close Order" << endl;
+                cout << "[4] Exit" << endl;
+                cout << "Enter Option: ";
+                cin >> caseSwitch;
+
+                switch (caseSwitch)
+                {
+                case 1:
+                {
+                    system("cls");
+                    restaurantSystem->displayTables();
+                    cout << "====================" << endl;
+                    int tableNumber;
+                    cout << "Enter Table Number: ";
+                    cin >> tableNumber;
+                    Table* table = restaurantSystem->getTableByID(tableNumber);
+                    if (table == nullptr)
+                    {
+                        cout << "You have entered a wrong number. Plese try again.\nEnter to continue..." << endl;
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+                    if (table->isOccupied())
+                    {
+                        cout << "Table is currently occupied. Please enter a different table.\nEnter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                    int itemsCount;
+                    cout << "How many different items do you want to order? ";
+                    cin >> itemsCount;
+
+                    if (itemsCount <= 0)
+                    {
+                        cout << "Invalid number of items.\nEnter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                    OrderItem** orderItems = new OrderItem * [itemsCount];
+                    cin.ignore();
+                    for (int i = 0; i < itemsCount; ++i)
+                    {
+                        system("cls");
+                        restaurantSystem->displayMenu();
+
+                        string itemName;
+                        int quantity;
+
+                        cout << "Enter name of item #" << (i + 1) << ": ";
+                        getline(cin, itemName);
+
+                        MenuItem* menuItem = restaurantSystem->getMenuItemByName(itemName);
+                        if (menuItem == nullptr)
+                        {
+                            cout << "Item not found. Try again." << endl;
+                            cin.get();
+                            i--;
+                            continue;
+                        }
+
+                        cout << "Enter quantity for " << itemName << ": ";
+                        while (!(cin >> quantity) || quantity <= 0)
+                        {
+                            cout << "Invalid quantity. Try again: ";
+                            cin.clear();
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        }
+
+                        cin.ignore();
+                        orderItems[i] = new OrderItem(menuItem, quantity);
+                    }
+
+                    bool isSuccess = restaurantSystem->addDineIn(restaurantSystem->getTableByID(tableNumber), orderItems, itemsCount);
+                    if (isSuccess)
+                    {
+                        cout << "Order created successfully!\nEnter to continue...";
+                    }
+                    else
+                    {
+                        cout << "Something went wrong. Please try again.\nEnter to continue...";
+                    }
+
+                    cin.get();
+
+                    delete[] orderItems;
+                    break;
+                }
+
+                case 2:
+                {
+                    system("cls");
+                    string customerName, pickupTime;
+
+                    cout << "Enter customer name: ";
+                    cin.ignore(); // clear newline
+                    getline(cin, customerName);
+
+                    cout << "Enter pickup time (e.g. 5:30 PM): ";
+                    getline(cin, pickupTime);
+
+                    int orderCount;
+                    cout << "How many items to order: ";
+                    cin >> orderCount;
+
+                    if (orderCount <= 0) {
+                        cout << "Invalid item count.\nEnter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                    OrderItem** orderItems = new OrderItem * [orderCount];
+                    cin.ignore(); // clear newline
+
+                    for (int i = 0; i < orderCount; ++i)
+                    {
+                        system("cls");
+                        restaurantSystem->displayMenu();
+                        string itemName;
+                        int quantity;
+
+                        cout << "Enter item name #" << i + 1 << ": ";
+                        getline(cin, itemName);
+
+                        MenuItem* menuItem = restaurantSystem->getMenuItemByName(itemName);
+                        if (!menuItem)
+                        {
+                            cout << "Item not found. Try again.\n";
+                            --i;
+                            continue;
+                        }
+
+                        cout << "Enter quantity: ";
+                        while (!(cin >> quantity) || quantity <= 0)
+                        {
+                            cout << "Invalid quantity. Try again: ";
+                            cin.clear();
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        }
+
+                        cin.ignore(); // clear newline
+                        orderItems[i] = new OrderItem(menuItem, quantity);
+                    }
+
+                    bool isSuccess = restaurantSystem->addTakeOut(customerName, pickupTime, orderItems, orderCount);
+                    system("cls");
+                    if (isSuccess)
+                    {
+                        Order* order = restaurantSystem->getOrderByID(restaurantSystem->getOrdersCount() - 1);
+                        order->printReceipt();
+                        cout << "Takeout order placed!\nEnter to continue...";
+                    }
+                    else
+                    {
+                        cout << "Something went wrong. Please try again.\nEnter to continue...";
+                    }
+                    cin.get();
+                    delete[] orderItems;
+                }
+
+                case 3:
+                {
+                    int orderID;
+                    system("cls");
+                    restaurantSystem->showPendingOrders();
+                    cout << "=============================" << endl;
+                    cout << "Enter Order Number to Close: ";
+                    cin >> orderID;
+                    Order* order = restaurantSystem->getOrderByID(orderID);
+                    if (order == nullptr)
+                    {
+                        cout << "No Order with this ID is Found.\nEnter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+                    order->orderComplete();
+                    system("cls");
+                    order->printReceipt();
+                    cout << "=============================" << endl;
+                    cout << "Order Successfully Closed!\nEnter to continue...";
+                    cin.ignore();
+                    cin.get();
+                    break;
+                }
+
+                case 4:
+                {
+                    back = true;
+                    break;
+                }
+
+                default:
+                    system("cls");
+                    cout << "Invalid option. Please try again.\nEnter to Continue..." << endl;
+                    cin.ignore();
+                    cin.get();
+                    break;
+
+                }
+            }
+            break;
+        }
+
+        case 3:
+        {
+            while (!back)
+            {
+                int switchCase;
+                system("cls");
+                restaurantSystem->displayTables();
+                cout << "===================" << endl;
+                cout << "[1] Add new table" << endl;
+                cout << "[2] Remove table" << endl;
+                cout << "[3] Show reservations under table" << endl;
+                cout << "[4] Return to Main Menu" << endl;
+                cout << "Enter Option: ";
+                cin >> switchCase;
+                switch (switchCase)
+                {
+                    case 1:
+                    {
+                        system("cls");
+                        int numSeat;
+                        cout << "Enter number of Seats: ";
+                        cin >> numSeat;
+                        bool isSuccess = restaurantSystem->addTable(numSeat);
+                        if(isSuccess) cout << "New table successfully created!\nEnter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+                    case 2:
+                    {
+                        system("cls");
+                        int tableID;
+                        restaurantSystem->displayTables();
+                        cout << "Enter Table Number to delete: ";
+                        cin >> tableID;
+                        bool isSuccess = restaurantSystem->deleteTableById(tableID);
+                        if(isSuccess) cout << "Table has successfully been deleted.\nEnter to continue..." << endl;
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+                    case 3:
+                    {
+                        system("cls");
+                        int tableID;
+                        restaurantSystem->displayTables();
+                        cout << "Enter Table Number: ";
+                        cin >> tableID;
+                        system("cls");
+                        restaurantSystem->getTableByID(tableID)->printReservations();
+                        cout << "========================" << endl;
+                        cout << "Enter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                    case 4:
+                    {
+                        back = true;
+                        break;
+                    }
+
+                    default:
+                    {
+                        system("cls");
+                        cout << "Invalid option. Please try again.\nEnter to Continue..." << endl;
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                }
+            }
+            break;
+        }
+        case 4:
+        {
+            while (!back)
+            {
+                int switchCase;
+                system("cls");
+                restaurantSystem->displayReservations();
+                cout << "===================================" << endl;
+                cout << "[1] Add Reservation" << endl;
+                cout << "[2] Delete Reservation" << endl;
+                cout << "[3] Back to Main Menu" << endl;
+                cout << "Enter Option: ";
+                cin >> switchCase;
+                switch (switchCase)
+                {
+                    case 1:
+                    {
+                        system("cls");
+                        string customerName, date, Time;
+                        int reservedPeople;
+                        cout << "Enter Customer Name: ";
+                        cin.ignore();
+                        getline(cin, customerName);
+                        cout << "Enter Number of People: ";
+                        cin >> reservedPeople;
+                        cin.ignore();
+                        cout << "Enter Reservation date (e.g: 05/07/2025): ";
+                        getline(cin, date);
+                        cout << "Enter Reservation time (e.g: 4:00 PM): ";
+                        getline(cin, Time);
+                        bool isSuccess = restaurantSystem->addReservation(customerName, reservedPeople, date, Time);
+                        if (isSuccess)
+                        {
+                            cout << "Reservation was successfully made.\nEnter to continue...";
+                        }
+                        cin.get();
+                        break;
+                    }
+                    case 2:
+                    {
+                        int reservationID;
+                        system("cls");
+                        restaurantSystem->displayReservations();
+                        cout << "===================" << endl;
+                        cout << "Enter Reservation Number to delete: ";
+                        cin.ignore();
+                        cin >> reservationID;
+                        bool isSuccess = restaurantSystem->deleteReservationById(reservationID);
+                        if (isSuccess) cout << "Reservation was successfully deleted.\nEnter to continue...";
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                    case 3:
+                    {
+                        back = true;
+                        break;
+                    }
+
+                    default:
+                    {
+                        system("cls");
+                        cout << "Invalid option. Please try again.\nEnter to Continue..." << endl;
+                        cin.ignore();
+                        cin.get();
+                        break;
+                    }
+
+                }
+            }
+            break;
+        }
+        case 5:
+            quit = true;
+            break;
+        default:
+            system("cls");
+            cout << "You entered a wrong number! Please try again.\nEnter to Continue..." << endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.get();
+            break;
+        }
     }
-    if (reservation2 != nullptr) {
-        reservation2->reservationDetails();
-    }
-    if (reservation3 != nullptr) {
-        reservation3->reservationDetails();
-    }
-    if (reservation4 != nullptr) {
-        reservation4->reservationDetails();
-    }
-
-    // Create Dine-In Order
-    cout << "\n--- Creating Dine-In Order ---" << endl;
-
-    // Create order items individually first
-    OrderItem* item1 = new OrderItem(restaurantSystem->getMenuItemByName("Wings"), 2);
-    OrderItem* item2 = new OrderItem(restaurantSystem->getMenuItemByName("Burger"), 1);
-    OrderItem* item3 = new OrderItem(restaurantSystem->getMenuItemByName("Soda"), 2);
-
-    // Then create the array of pointers
-    OrderItem** orderItems1 = new OrderItem * [3] {nullptr};
-    orderItems1[0] = item1;
-    orderItems1[1] = item2;
-    orderItems1[2] = item3;
-
-    DineIn* dineInOrder = restaurantSystem->addDineIn(table1, orderItems1, 3);
-
-    cout << "Is table " << table1->getTableNumber() << " occupied? " << (table1->isOccupied() ? "Yes" : "No") << endl;
-
-    // Print Dine-In receipt
-    cout << "\n--- Initial Dine-In Receipt ---" << endl;
-    dineInOrder->printReceipt();
-
-    // Add item to dine-in order
-    cout << "\n--- Adding Cake to Dine-In Order ---" << endl;
-    dineInOrder->addItem(restaurantSystem->getMenuItemByName("Cake"), 1);
-    dineInOrder->printReceipt();
-
-    // Remove an item from dine-in order
-    cout << "\n--- Removing Soda from Dine-In Order ---" << endl;
-    restaurantSystem->deleteOrderItemByName(0, "Soda", 1);
-    dineInOrder->printReceipt();
-
-    // Create Take-Out Order
-    cout << "\n--- Creating Take-Out Order ---" << endl;
-
-    // Create order items individually first
-    OrderItem* takeoutItem1 = new OrderItem(restaurantSystem->getMenuItemByName("Nachos"), 1);
-    OrderItem* takeoutItem2 = new OrderItem(restaurantSystem->getMenuItemByName("Pasta"), 2);
-
-    // Then create the array of pointers
-    OrderItem** orderItems2 = new OrderItem * [2] {nullptr};
-    orderItems2[0] = takeoutItem1;
-    orderItems2[1] = takeoutItem2;
-
-    TakeOut* takeOutOrder = restaurantSystem->addTakeOut("Jane Doe", "20:15", orderItems2, 2);
-
-    delete[] orderItems2;
-
-    // Print Take-Out receipt
-    cout << "\n--- Initial Take-Out Receipt ---" << endl;
-    takeOutOrder->printReceipt();
-
-    // Add item to take-out order
-    cout << "\n--- Adding Ice Cream to Take-Out Order ---" << endl;
-    takeOutOrder->addItem(restaurantSystem->getMenuItemByName("Ice Cream"), 2);
-    takeOutOrder->printReceipt();
-
-    // Remove an item from take-out order
-    cout << "\n--- Removing Nachos from Take-Out Order ---" << endl;
-    restaurantSystem->deleteOrderItemByName(1, "Nachos", 1);
-    takeOutOrder->printReceipt();
-
-    // Display pending orders
-    cout << "\n--- Showing Pending Orders ---" << endl;
-    restaurantSystem->showPendingOrders();
-
-    // Complete the orders
-    cout << "\n--- Completing Dine-In Order ---" << endl;
-    dineInOrder->orderComplete();
-    cout << "Is table " << table1->getTableNumber() << " occupied? " << (table1->isOccupied() ? "Yes" : "No") << endl;
-
-    cout << "\n--- Completing Take-Out Order ---" << endl;
-    takeOutOrder->orderComplete();
-
-    // Test menu modifications
-    cout << "\n--- Removing Wings from Appetizers ---" << endl;
-    restaurantSystem->deleteMenuItemByName("Wings");
-
-    // Display the updated menu
-    cout << "\n--- Updated Menu ---" << endl;
-    restaurantSystem->displayMenu();
-
-    // Clean up allocated memory
-    cout << "\n--- Cleaning Up ---" << endl;
-    delete restaurantSystem; // This will clean up everything through the destructors
-
-    cout << "\n================ PROGRAM COMPLETE ================" << endl;
-
+    delete restaurantSystem;
+    system("cls");
+    cout << "====== PROGRAM COMPLETE ======" << endl;
+    getchar();
     return 0;
 }

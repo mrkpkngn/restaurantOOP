@@ -1,5 +1,9 @@
 #pragma once
 #include "Reservation.h"
+#include "System.h";
+
+class System;
+
 class Table
 {
 private:
@@ -22,5 +26,7 @@ public:
 	Reservation* getReservation(int index);
 	void markAsFree();
 	void markAsOccupied();
+	void tableDetails();
+	void printReservations();
 };
 

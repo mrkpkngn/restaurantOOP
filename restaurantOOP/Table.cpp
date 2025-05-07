@@ -17,11 +17,10 @@ Table::Table(int numSeats)
 
 Table::~Table()
 {
-	if (_reservations != nullptr) {
+	if (_reservations != nullptr)
+	{
 		delete[] _reservations;
 		_reservations = nullptr;
-
-		Table::_totalTables--;
 	}
 }
 
@@ -35,7 +34,7 @@ int Table::getTotalTables()
 
 int Table::getTableNumber()
 {
-	return this->_tableNumber + 1;
+	return this->_tableNumber;
 }
 
 bool Table::isOccupied()
@@ -84,4 +83,19 @@ void Table::markAsFree()
 void Table::markAsOccupied()
 {
 	this->_occupied = true;
+}
+void Table::tableDetails()
+{
+	cout << "--- Table " << this->_tableNumber << " ---" << endl;
+	cout << "No. Seats: " << this->_numSeats << endl;
+	cout << "Occupied?: " << (this->_occupied ? "Yes" : "No") << endl;
+}
+
+void Table::printReservations()
+{
+	for (int x = 0; x < this->_numReservations; x++)
+	{
+		this->_reservations[x]->reservationDetails();
+		cout << "\n";
+	}
 }

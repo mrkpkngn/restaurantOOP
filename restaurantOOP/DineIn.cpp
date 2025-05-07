@@ -19,6 +19,7 @@ DineIn::~DineIn()
 
 void DineIn::orderComplete()
 {
+	Order::orderComplete();
 	this->_orderTable->markAsFree();
 }
 
