@@ -22,6 +22,22 @@ Menu::~Menu()
 		this->_categories = nullptr;
 	}
 }
+
+//------------------------- GET FUNCTIONS ---------------------------
+int Menu::getCategoriesCount()
+{
+	return this->_categoriesCount;
+}
+
+MenuCategory* Menu::getCategoryByID(int index)
+{
+	if (index < this->_categoriesCount)
+	{
+		return this->_categories[index];
+	}
+	cout << "Error!: Category not found!" << endl;
+	return nullptr;
+}
 // ------------------------ PROCESS FUNCTIONS -----------------------
 
 MenuCategory* Menu::addCategory(MenuCategory* category)

@@ -12,25 +12,25 @@ int main()
     cout << "\n--- Creating Menu ---" << endl;
 
     // Create Categories
-    MenuCategory* appetizers = restaurantSystem->addMenuCategory("Appetizers");
-    MenuCategory* mainCourse = restaurantSystem->addMenuCategory("Main Course");
-    MenuCategory* desserts = restaurantSystem->addMenuCategory("Desserts");
-    MenuCategory* drinks = restaurantSystem->addMenuCategory("Drinks");
+    restaurantSystem->addMenuCategory("Appetizers");
+    restaurantSystem->addMenuCategory("Main Course");
+    restaurantSystem->addMenuCategory("Desserts");
+    restaurantSystem->addMenuCategory("Drinks");
 
     // Add Menu Items to Categories
-    MenuItem* nachos = appetizers->addItem(restaurantSystem->addMenuItem("Nachos", 8.99));
-    MenuItem* wings = appetizers->addItem(restaurantSystem->addMenuItem("Wings", 10.99));
-    MenuItem* salad = appetizers->addItem(restaurantSystem->addMenuItem("Salad", 6.99));
+    restaurantSystem->addMenuItem("Appetizers", "Nachos", 8.99);
+    restaurantSystem->addMenuItem("Appetizers", "Wings", 10.99);
+    restaurantSystem->addMenuItem("Appetizers", "Salad", 6.99);
 
-    MenuItem* burger = mainCourse->addItem(restaurantSystem->addMenuItem("Burger", 14.99));
-    MenuItem* steak = mainCourse->addItem(restaurantSystem->addMenuItem("Steak", 24.99));
-    MenuItem* pasta = mainCourse->addItem(restaurantSystem->addMenuItem("Pasta", 16.99));
+    restaurantSystem->addMenuItem("Main Course", "Burger", 14.99);
+    restaurantSystem->addMenuItem("Main Course", "Steak", 24.99);
+    restaurantSystem->addMenuItem("Main Course", "Pasta", 16.99);
 
-    MenuItem* cake = desserts->addItem(restaurantSystem->addMenuItem("Cake", 7.99));
-    MenuItem* iceCream = desserts->addItem(restaurantSystem->addMenuItem("Ice Cream", 5.99));
+    restaurantSystem->addMenuItem("Desserts", "Cake", 7.99);
+    restaurantSystem->addMenuItem("Desserts", "Ice Cream", 5.99);
 
-    MenuItem* soda = drinks->addItem(restaurantSystem->addMenuItem("Soda", 2.99));
-    MenuItem* coffee = drinks->addItem(restaurantSystem->addMenuItem("Coffee", 3.99));
+    restaurantSystem->addMenuItem("Drinks", "Soda", 2.99);
+    restaurantSystem->addMenuItem("Drinks", "Coffee", 3.99);
 
     // Display the Complete Menu
     restaurantSystem->displayMenu();
@@ -50,6 +50,8 @@ int main()
     cout << "\n--- Creating Reservations ---" << endl;
     Reservation* reservation1 = restaurantSystem->addReservation("John Smith", 2, "25-04-2025", "18:00");
     Reservation* reservation2 = restaurantSystem->addReservation("Maria Garcia", 4, "25-04-2025", "19:30");
+    Reservation* reservation3 = restaurantSystem->addReservation("Maria Garcia", 4, "25-04-2025", "19:30");
+    Reservation* reservation4 = restaurantSystem->addReservation("Maria Garcia", 4, "25-04-2025", "19:30");
 
     if (reservation1 != nullptr) {
         reservation1->reservationDetails();
@@ -57,14 +59,20 @@ int main()
     if (reservation2 != nullptr) {
         reservation2->reservationDetails();
     }
+    if (reservation3 != nullptr) {
+        reservation3->reservationDetails();
+    }
+    if (reservation4 != nullptr) {
+        reservation4->reservationDetails();
+    }
 
     // Create Dine-In Order
     cout << "\n--- Creating Dine-In Order ---" << endl;
 
     // Create order items individually first
-    OrderItem* item1 = new OrderItem(wings, 2);
-    OrderItem* item2 = new OrderItem(burger, 1);
-    OrderItem* item3 = new OrderItem(soda, 2);
+    OrderItem* item1 = new OrderItem(restaurantSystem->getMenuItemByName("Wings"), 2);
+    OrderItem* item2 = new OrderItem(restaurantSystem->getMenuItemByName("Burger"), 1);
+    OrderItem* item3 = new OrderItem(restaurantSystem->getMenuItemByName("Soda"), 2);
 
     // Then create the array of pointers
     OrderItem** orderItems1 = new OrderItem * [3] {nullptr};
@@ -82,21 +90,20 @@ int main()
 
     // Add item to dine-in order
     cout << "\n--- Adding Cake to Dine-In Order ---" << endl;
-    dineInOrder->addItem(cake, 1);
+    dineInOrder->addItem(restaurantSystem->getMenuItemByName("Cake"), 1);
     dineInOrder->printReceipt();
 
     // Remove an item from dine-in order
     cout << "\n--- Removing Soda from Dine-In Order ---" << endl;
-    bool removed = dineInOrder->removeItem("Soda");
-    cout << "Item removed: " << (removed ? "Yes" : "No") << endl;
+    restaurantSystem->deleteOrderItemByName(0, "Soda", 1);
     dineInOrder->printReceipt();
 
     // Create Take-Out Order
     cout << "\n--- Creating Take-Out Order ---" << endl;
 
     // Create order items individually first
-    OrderItem* takeoutItem1 = new OrderItem(nachos, 1);
-    OrderItem* takeoutItem2 = new OrderItem(pasta, 2);
+    OrderItem* takeoutItem1 = new OrderItem(restaurantSystem->getMenuItemByName("Nachos"), 1);
+    OrderItem* takeoutItem2 = new OrderItem(restaurantSystem->getMenuItemByName("Pasta"), 2);
 
     // Then create the array of pointers
     OrderItem** orderItems2 = new OrderItem * [2] {nullptr};
@@ -105,19 +112,20 @@ int main()
 
     TakeOut* takeOutOrder = restaurantSystem->addTakeOut("Jane Doe", "20:15", orderItems2, 2);
 
+    delete[] orderItems2;
+
     // Print Take-Out receipt
     cout << "\n--- Initial Take-Out Receipt ---" << endl;
     takeOutOrder->printReceipt();
 
     // Add item to take-out order
     cout << "\n--- Adding Ice Cream to Take-Out Order ---" << endl;
-    takeOutOrder->addItem(iceCream, 2);
+    takeOutOrder->addItem(restaurantSystem->getMenuItemByName("Ice Cream"), 2);
     takeOutOrder->printReceipt();
 
     // Remove an item from take-out order
     cout << "\n--- Removing Nachos from Take-Out Order ---" << endl;
-    removed = takeOutOrder->removeItem("Nachos");
-    cout << "Item removed: " << (removed ? "Yes" : "No") << endl;
+    restaurantSystem->deleteOrderItemByName(1, "Nachos", 1);
     takeOutOrder->printReceipt();
 
     // Display pending orders
@@ -134,8 +142,7 @@ int main()
 
     // Test menu modifications
     cout << "\n--- Removing Wings from Appetizers ---" << endl;
-    bool result = appetizers->removeItem(wings);
-    cout << "Item removed: " << (result ? "Yes" : "No") << endl;
+    restaurantSystem->deleteMenuItemByName("Wings");
 
     // Display the updated menu
     cout << "\n--- Updated Menu ---" << endl;

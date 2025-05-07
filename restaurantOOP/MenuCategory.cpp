@@ -25,6 +25,28 @@ MenuCategory::~MenuCategory()
 	}
 }
 
+// ------------------------ GET FUNCTIONS ---------------------------
+
+int MenuCategory::getItemsCount()
+{
+	return this->_itemsCount;
+}
+
+MenuItem* MenuCategory::getItemByID(int index)
+{
+	if (index < this->_itemsCount)
+	{
+		return this->_items[index];
+	}
+	cout << "Error!: Item not found!" << endl;
+	return nullptr;
+}
+
+string MenuCategory::getCategoryName()
+{
+	return this->_category;
+}
+
 // ------------------------ PROCESS FUNCTIONS -----------------------
 
 MenuItem* MenuCategory::addItem(MenuItem* item)

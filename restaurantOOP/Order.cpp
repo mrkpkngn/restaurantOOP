@@ -108,10 +108,14 @@ OrderItem* Order::addItem(MenuItem* item, int quantity)
 	return orderItem;
 }
 
-bool Order::removeItem(string name) {
+bool Order::removeItem(string name, int quantity) {
 	for (int x = 0; x < this->_itemsCount; x++) {
 		if (this->_orderItems[x]->getItem()->getName() == name) {
-			bool isSuccess = this->_orderItems[x]->reduceQuantity();
+			bool isSuccess = false;
+			for (int y = 0; y < quantity; y++)
+			{
+				isSuccess = this->_orderItems[x]->reduceQuantity();
+			}
 
 			if (!isSuccess || this->_orderItems[x]->getQuantity() == 0) {
 				this->_orderTotal -= this->getItem(x)->getItem()->getPrice() * (this->_orderItems[x]->getQuantity() + 1);

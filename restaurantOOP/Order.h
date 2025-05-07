@@ -21,7 +21,7 @@ public:
 	virtual int getItemsCount() const;
 	virtual OrderItem* getItem(int index) const;
 	OrderItem* addItem(MenuItem* item, int quantity);
-	bool removeItem(string name);
+	bool removeItem(string name, int quantity);
 	virtual void orderComplete();
 	virtual void displayOrder() const = 0;
 	virtual void printReceipt() const = 0;
